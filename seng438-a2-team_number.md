@@ -19,9 +19,16 @@
 
 # 3 Test cases developed
 
+Range:
+
+| Method To Test | Test Method Name | Test Type |
+|-----------------|---|---|
+
+
 DataUtilities:
 
-| Method to test | test method name | test type |
+| Method To Test | Test Method Name | Test Type |
+|-----------------|---|---|
 | createNumberArray(double[] data) | createNumberArrayFourDoubleElements() | ECT 
 | createNumberArray(double[] data) | createNumberArrayThreeDoubleElements() | ECT 
 | createNumberArray(double[] data) | createNumberArraySizeTest() | ECT 
