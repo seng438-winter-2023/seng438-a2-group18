@@ -11,7 +11,7 @@
 
 # 1 Introduction
 
-
+The purpose of this lab was to get familiar with testing services provided by java. We were supposed to use testing tools such as JUnit framework to test different algorithms for JFreeChart. To make sure our testing was thorough and efficient, for harder tests we used mock objects to simulate the condition, and for simpler tests we used unit tests. All of this was done on Eclipse as instructed by our lab document.
 
 # 2 Detailed description of unit test strategy
 
