@@ -66,6 +66,11 @@ DataUtilities:
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForOneRows() | ECT
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForMultipleRows() | ECT
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForInvalidObject() | BVT
+| getCumulativePercentages() | testingAllElements() | ECT
+| getCumulativePercentages() | allZeroRows() | ECT
+| getCumulativePercentages() | lastTwoRowsZero() | ECT
+| getCumulativePercentages() | firstThreeRowsZero() | ECT
+| getCumulativePercentages() | getCumulativePercentagesNullArgument() | BVT
 
 
 
