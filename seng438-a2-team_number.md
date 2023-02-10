@@ -23,6 +23,7 @@ Range:
 
 | Method To Test | Test Method Name | Test Type |
 |-----------------|---|---|
+| getLength() | getLengthValidOutput() | ECT
 
 
 DataUtilities:
@@ -37,6 +38,12 @@ DataUtilities:
 | createNumberArray2D(double[] data) | create2DNumberArrayTwoDoubleElements() | ECT
 | createNumberArray2D(double[] data) | create2DNumberArraySizeTest() | ECT
 | createNumberArray2D(double[] data) | create2DNumberArrayNullArgument() | BVT
+| calculateColumnTotal(Values2D data, int column) | calculateColumnTotalForThreeRows() | ECT
+| calculateColumnTotal(Values2D data, int column) | calculateColumnTotalForMultipleRows() | ECT
+| calculateColumnTotal(Values2D data, int column) | calculateColumnTotalForInvalidObject() | BVT
+| calculateRowTotal(Values2D data, int column) | calculateRowTotalForOneRows() | ECT
+| calculateRowTotal(Values2D data, int column) | calculateRowTotalForMultipleRows() | ECT
+| calculateRowTotal(Values2D data, int column) | calculateRowTotalForInvalidObject() | BVT
 
 
 
