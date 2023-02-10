@@ -66,14 +66,12 @@ DataUtilities:
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForOneRows() | ECT
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForMultipleRows() | ECT
 | calculateRowTotal(Values2D data, int column) | calculateRowTotalForInvalidObject() | BVT
+| getCumulativePercentages() | getCumulativePercentagesValidKeyedValuesAllElements() | ECT
+| getCumulativePercentages() | allZeroRows() | ECT
+| getCumulativePercentages() | lastTwoRowsZero() | ECT
+| getCumulativePercentages() | firstThreeRowsZero() | ECT
+| getCumulativePercentages() | getCumulativePercentagesNullArgument() | ECT
 
-
-
-
-
-// write down the name of the test methods and classes. Organize the based on
-the source code method // they test. identify which tests cover which partitions
-you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
@@ -81,7 +79,7 @@ During the lab time period we went over all the tests that were required for thi
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-For this lab, we had to work on our test files on Eclipse. As not everyone on the team was familiar with using Eclipse, we had to take some time installing and learning how to work on this platform before starting the contents of the lab. We divided the workload amongst us for efficiency, with each of us doing 2-3 tests. Whenever a test case failed, it was difficult to confirm if there was a bug or if there was a mistake made in the code. We overcame this by having at least two people review test-cases for a method that one member was confused about. Throughout this assignment, our group had the opportunity to work with Eclipse and learn about Black Box Testing, where we could write and carry out test cases even without knowing the full implementation of the program.
+For this lab, we had to work on our test files on Eclipse. As not everyone on the team was familiar with using Eclipse, we had to take some time installing and learning how to work on this platform before starting the contents of the lab. We divided the workload amongst us for efficiency, with each of us doing 2-3 tests. Whenever a test case failed, it was difficult to confirm if there was a bug or if there was a mistake made in the code. We overcame this by having at least two people review test-cases for a method that one member was confused about.
 
 # 6 Comments/feedback on the lab itself
 
