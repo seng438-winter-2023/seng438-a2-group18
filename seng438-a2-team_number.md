@@ -70,7 +70,7 @@ DataUtilities:
 | getCumulativePercentages() | allZeroRows() | ECT
 | getCumulativePercentages() | lastTwoRowsZero() | ECT
 | getCumulativePercentages() | firstThreeRowsZero() | ECT
-| getCumulativePercentages() | getCumulativePercentagesNullArgument() | ECT
+| getCumulativePercentages() | getCumulativePercentagesNullArgument() | BVT
 
 
 # 4 How the team work/effort was divided and managed
