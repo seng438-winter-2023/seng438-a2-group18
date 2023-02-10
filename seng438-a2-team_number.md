@@ -72,7 +72,7 @@ During the lab time period we went over all the tests that were required for thi
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+For this lab, we had to work on our test files on Eclipse. As not everyone on the team was familiar with using Eclipse, we had to take some time installing and learning how to work on this platform before starting the contents of the lab.
 
 # 6 Comments/feedback on the lab itself
 
