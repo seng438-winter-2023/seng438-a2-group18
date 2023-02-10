@@ -55,7 +55,7 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-Text…
+During the lab time period we went over all the tests that were required for this lab. We discussed the tests and mutaully came up with what kind of JUnit tests will be required for specific methods in the JFreeChart system. Since we were supposed to do ten tests, Muteeba and Shahzill did 3 of the tests each whereas Rumaisa and Iman did two tests each. To make the workload more even, Iman and Rumaisa did the greater part of the report whereas Shahzill and Muteeba worked on the introduction and conclusion. 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
