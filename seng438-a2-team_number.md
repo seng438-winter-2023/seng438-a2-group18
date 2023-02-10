@@ -24,6 +24,14 @@ Range:
 | Method To Test | Test Method Name | Test Type |
 |-----------------|---|---|
 | getLength() | getLengthValidOutput() | ECT
+| constrain(double value) | numberLowerThanLowerBoundary() | ECT
+| constrain(double value) | numberLowerThanLowerBoundaryWithRangeZero() | ECT
+| constrain(double value) | numberHigherThanUpperBoundary() | ECT
+| constrain(double value) | numberHigherThanUpperBoundaryWithRangeZero() | ECT
+| constrain(double value) | numberWithinRange() | ECT
+| constrain(double value) | numberIsLowerBoundary() | ECT
+| constrain(double value) | numberIsUpperBoundary() | ECT
+
 
 
 DataUtilities:
