@@ -31,7 +31,12 @@ Range:
 | constrain(double value) | numberWithinRange() | ECT
 | constrain(double value) | numberIsLowerBoundary() | ECT
 | constrain(double value) | numberIsUpperBoundary() | ECT
-
+| combine(Range range1, Range range2) | firstRangeNull() | BVT
+| combine(Range range1, Range range2) | secondRangeNull() | BVT
+| combine(Range range1, Range range2) | bothRangeNull() | BVT
+| combine(Range range1, Range range2) | identicalRanges() | ECT
+| combine(Range range1, Range range2) | continuousRanges() | ECT
+| combine(Range range1, Range range2) | notContinuousRanges() | ECT
 
 
 DataUtilities:
