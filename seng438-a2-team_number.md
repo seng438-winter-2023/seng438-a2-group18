@@ -37,6 +37,15 @@ Range:
 | combine(Range range1, Range range2) | identicalRanges() | ECT
 | combine(Range range1, Range range2) | continuousRanges() | ECT
 | combine(Range range1, Range range2) | notContinuousRanges() | ECT
+| getLowerBound() | testNegativeNumberForLowerBound() |
+| getLowerBound() | testZeroForLowerBound() |
+| getLowerBound() | testPositiveNumberForLowerBound() |
+| getLowerBound() | testDoubleForLowerBound() |
+| getUpperBound() | testNegativeNumberForUpperBound() |
+| getUpperBound() | testZeroForUpperBound() |
+| getUpperBound() | testPositiveNumberForUpperBound() |
+| getUpperBound() | testDoubleForUpperBound() |
+
 
 
 DataUtilities:
