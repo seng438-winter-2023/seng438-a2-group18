@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.jfree.data.Range;
 import org.junit.*;
 
-public class getLowerBound {
+public class getLowerBoundTest {
 
 	private Range rangeN;
 	private Range rangeZ;
@@ -51,5 +51,6 @@ public class getLowerBound {
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
 	}
+
 
 }
