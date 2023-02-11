@@ -15,9 +15,25 @@ The purpose of this lab is to get familiar with testing services provided by jav
 
 # 2 Detailed description of unit test strategy
 
-We designed our unit testing by using two black box strategies called boundary value testing (BVT) and equivalence class testing (ECT). ECT was used to identity the input partitions for the methods. It was based on the output that was anticapted behaviour based on the inputs. The BVt was used to after we had established the minimum and maximum values that the method can accept as an input. 
+We designed our unit testing by using two black box strategies called boundary value testing (BVT) and equivalence class testing (ECT). ECT was used to identity the input partitions for the methods. It was based on the output that was anticapted behaviour based on the inputs. The BVt was used to after we had established the minimum and maximum values that the method can accept as an input. To implement the strategies we will use JUnit testing. Moreover, for the tests that depended on DOCs, we used JMock to create mock tests which allowed us to see the behaviour and the test results in depth.
 
-// including the input partitions you have designed
+The DataUtilities test that we chose are:
+
+calculateColumnTotal(Values2D data, int column)
+calculateRowTotal(Values2D data, int row)
+createNumberArray(double[] data)
+createNumberArray2D(double[][] data)
+getCumulativePercentages(KeyedValues data)
+
+The Range test that we chose are:
+
+getLowerBound()
+getUpperBound()
+getLength()
+constrain(double value)
+combine(Range range1, Range range2)
+
+
 
 # 3 Test cases developed
 
@@ -76,11 +92,6 @@ DataUtilities:
 
 
 
-
-
-// write down the name of the test methods and classes. Organize the based on
-the source code method // they test. identify which tests cover which partitions
-you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
