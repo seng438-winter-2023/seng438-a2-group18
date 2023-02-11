@@ -19,19 +19,30 @@ We designed our unit testing by using two black box strategies called boundary v
 
 The DataUtilities test that we chose are:
 
-calculateColumnTotal(Values2D data, int column)
-calculateRowTotal(Values2D data, int row)
-createNumberArray(double[] data)
-createNumberArray2D(double[][] data)
-getCumulativePercentages(KeyedValues data)
+
+1) calculateColumnTotal(Values2D data, int column)
+
+2) calculateRowTotal(Values2D data, int row)
+
+3) createNumberArray(double[] data)
+
+4) createNumberArray2D(double[][] data)
+
+5) getCumulativePercentages(KeyedValues data)
+
 
 The Range test that we chose are:
 
-getLowerBound()
-getUpperBound()
-getLength()
-constrain(double value)
-combine(Range range1, Range range2)
+
+1) getLowerBound()
+
+2) getUpperBound()
+
+3) getLength()
+
+4) constrain(double value)
+
+5) combine(Range range1, Range range2)
 
 
 
