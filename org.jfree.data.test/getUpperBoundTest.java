@@ -5,7 +5,7 @@ import org.jfree.data.Range;
 import org.junit.*;
 
 public class getUpperBoundTest {
-
+	
 	private Range rangeN;
 	private Range rangeZ;
 	private Range rangeP;
@@ -24,29 +24,29 @@ public class getUpperBoundTest {
 	}
 	
 	@Test
-    public void testNegativeNumberForUpperBound() { // Upper bound being a negative number  
-        assertEquals("Expecting it to return -1", -1, rangeN.getUpperBound(), .000000001d);
-    }
+	public void testNegativeNumberForUpperBound() { // Upper bound being a negative number  
+		assertEquals("The value of upper bound should return -1", -1, rangeN.getUpperBound(), .000000001d);
+	}
 	// Test has a failure, the upper bound is not returned
 	// Test passes for the value of the lower bound
      
-    @Test
-    public void testZeroForUpperBound() { // Upper bound being at 0         
-        assertEquals("Expecting it to return 0", 0, rangeZ.getUpperBound(), .000000001d);
-    }
+	@Test
+	public void testZeroForUpperBound() { // Upper bound being at 0         
+		assertEquals("The value of upper bound should return 0", 0, rangeZ.getUpperBound(), .000000001d);
+	}
 	// Test passes only because lower bound == upper bound == 0
      
-    @Test
-    public void testPositiveNumberForUpperBound() { // Upper bound being a positive number   
-        assertEquals("Expecting it to return 10", 10, rangeP.getUpperBound(), .000000001d);
-    }
+	@Test
+	public void testPositiveNumberForUpperBound() { // Upper bound being a positive number   
+		assertEquals("The value of upper bound should return 10", 10, rangeP.getUpperBound(), .000000001d);
+	}
 	// Test has a failure, the upper bound is not returned
 	// Test passes for the value of the lower bound
     
-    @Test
-    public void testDoubleForUpperBound() { // Upper bound being a double   
-        assertEquals("Expecting it to return 6.0", 6.0, rangeDoub.getLowerBound(), .000000001d);
-    }
+	@Test
+	public void testDoubleForUpperBound() { // Upper bound being a double   
+		assertEquals("The value of upper bound should return 6.0", 6.0, rangeDoub.getLowerBound(), .000000001d);
+	}
 	// Test has a failure, the upper bound is not returned
 	// Test passes for the value of the lower bound
     
