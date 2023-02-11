@@ -15,6 +15,8 @@ The purpose of this lab is to get familiar with testing services provided by jav
 
 # 2 Detailed description of unit test strategy
 
+We designed our unit testing by using two black box strategies called boundary value testing (BVT) and equivalence class testing (ECT). ECT was used to identity the input partitions for the methods. It was based on the output that was anticapted behaviour based on the inputs. The BVt was used to after we had established the minimum and maximum values that the method can accept as an input. 
+
 // including the input partitions you have designed
 
 # 3 Test cases developed
@@ -31,9 +33,9 @@ Range:
 | constrain(double value) | numberWithinRange() | ECT
 | constrain(double value) | numberIsLowerBoundary() | ECT
 | constrain(double value) | numberIsUpperBoundary() | ECT
-| combine(Range range1, Range range2) | firstRangeNull() | BVT
-| combine(Range range1, Range range2) | secondRangeNull() | BVT
-| combine(Range range1, Range range2) | bothRangeNull() | BVT
+| combine(Range range1, Range range2) | firstRangeNull() | ECT
+| combine(Range range1, Range range2) | secondRangeNull() | ECT
+| combine(Range range1, Range range2) | bothRangeNull() | ECT
 | combine(Range range1, Range range2) | identicalRanges() | ECT
 | combine(Range range1, Range range2) | continuousRanges() | ECT
 | combine(Range range1, Range range2) | notContinuousRanges() | ECT
