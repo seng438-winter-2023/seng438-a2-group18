@@ -25,22 +25,22 @@ public class getLowerBoundTest {
 	
 	@Test
 	public void testNegativeNumberForLowerBound() { // Lower bound being a negative number  
-		assertEquals("Expecting it to return -10",-10, rangeN.getLowerBound(), .000000001d);
+		assertEquals("The value of lower bound should return -10",-10, rangeN.getLowerBound(), .000000001d);
 	}
      
 	@Test
 	public void testZeroForLowerBound() { // Lower bound being at 0         
-		assertEquals("Expecting it to return 0", 0, rangeZ.getLowerBound(), .000000001d);
+		assertEquals("The value of lower bound should return 0", 0, rangeZ.getLowerBound(), .000000001d);
 	}
      
         @Test
         public void testPositiveNumberForLowerBound() { // Lower bound being a positive number   
-		assertEquals("Expecting it to return 1", 1, rangeP.getLowerBound(), .000000001d);
+		assertEquals("The value of lower bound should return 1", 1, rangeP.getLowerBound(), .000000001d);
         }
     
         @Test
         public void testDoubleForLowerBound() { // Lower bound being a double
-		assertEquals("Expecting it to return 2.5", 2.5, rangeDoub.getLowerBound(), .000000001d);
+		assertEquals("The value of lower bound should return 2.5", 2.5, rangeDoub.getLowerBound(), .000000001d);
         }
     
         @After
